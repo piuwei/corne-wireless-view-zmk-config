@@ -54,6 +54,8 @@
 &kp LCTRL       &trans        &trans        &trans        &trans        &bt BT_CLR    &kp NUMBER_0  &kp NUMBER_1   &kp N2      &kp N3  &kp KP_DOT  &trans
                                             &trans        &trans        &trans        &kp RET       &kp BACKSPACE  &kp DELETE
             >;
+
+            label = "num";
         };
 
         symbols {
@@ -63,13 +65,15 @@
             // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
-            display-name = "Raise";
+            display-name = "sym";
             bindings = <
 &kp TAB         &trans         &trans  &kp RA(NUMBER_5)  &kp SLASH  &kp PRCNT     &kp CARET       &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK  &trans
 &kp LEFT_SHIFT  &kp BACKSLASH  &kp AT  &kp EXCLAMATION   &kp HASH   &kp DOLLAR    &kp EQUAL       &kp COLON      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE     &trans
 &kp LCTRL       &kp GRAVE      &trans  &trans            &trans     &trans        &kp APOSTROPHE  &kp SLASH      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE      &trans
                                        &trans            &trans     &trans        &kp RETURN      &kp BACKSPACE  &kp DELETE
             >;
+
+            label = "sym";
         };
 
         navigation {
@@ -79,6 +83,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans         &trans        &trans     &trans  &trans
                         &trans  &trans  &trans    &kp ENTER  &kp BACKSPACE  &kp DEL
             >;
+
+            label = "nav";
         };
 
         fkeys_media {
@@ -88,6 +94,8 @@
 &trans  &kp F10  &kp F3  &kp F2      &kp F1    &trans        &trans      &trans        &trans             &trans      &trans  &trans
                          &kp C_MUTE  &kp C_PP  &kp C_STOP    &trans      &trans        &trans
             >;
+
+            label = "fun";
         };
     };
 };
