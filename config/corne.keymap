@@ -67,10 +67,10 @@
 
             display-name = "sym";
             bindings = <
-&kp TAB         &trans         &trans  &kp RA(NUMBER_5)  &kp NON_US_HASH  &kp PRCNT     &kp CARET       &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK  &trans
-&kp LEFT_SHIFT  &kp BACKSLASH  &kp AT  &kp EXCLAMATION   &kp QUESTION     &kp DOLLAR    &kp EQUAL       &kp COLON      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE     &trans
-&kp LCTRL       &kp GRAVE      &trans  &trans            &trans           &trans        &kp APOSTROPHE  &kp SLASH      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE      &trans
-                                       &trans            &trans           &trans        &kp RETURN      &kp BACKSPACE  &kp DELETE
+&kp TAB         &trans         &kp RA(SEMICOLON)  &kp RA(NUMBER_5)  &kp NON_US_HASH  &kp PRCNT     &kp CARET       &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK  &trans
+&kp LEFT_SHIFT  &kp BACKSLASH  &kp AT             &kp EXCLAMATION   &kp QUESTION     &kp DOLLAR    &kp EQUAL       &kp SEMICOLON  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE     &trans
+&kp LCTRL       &kp GRAVE      &trans             &trans            &trans           &trans        &kp APOSTROPHE  &kp SLASH      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE      &trans
+                                                  &trans            &trans           &trans        &kp RETURN      &kp BACKSPACE  &kp DELETE
             >;
 
             label = "sym";
